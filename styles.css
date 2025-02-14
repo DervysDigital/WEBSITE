@@ -498,6 +498,7 @@
     }
 
     .right-info h3 {
+        display: none;
         font-size: 24px; /* Reducir el tamaño del h3 */
         top: 420px;
         left: 90px;
