@@ -458,12 +458,11 @@
 
     .logo {
         font-size: 40px;
-        margin-left: 85px;
+        margin-left: 82.5px;
     }
 
     .social-media {
         margin: 0;
-        margin-right: 17px;
     }
 
     .social-media a {
@@ -494,13 +493,13 @@
 
     .left-info .penetrate-blur h1,
     .right-info h1 {
-        font-size: 50px; /* Reducir el tamaño del h1 */
+        font-size: 40px; /* Reducir el tamaño del h1 */
         margin: 0 auto; /* Centrar el texto */
     }
 
     .right-info h3 {
-        font-size: 30px; /* Reducir el tamaño del h3 */
-        top: 370px;
+        font-size: 20px; /* Reducir el tamaño del h3 */
+        top: 380px;
         left: 90px;
         transform: translateY(50%);
     }
@@ -511,7 +510,7 @@
     }
 
     .content h3 {
-        font-size: 19px;
+        font-size: 16px;
     }
 
     .content p {
