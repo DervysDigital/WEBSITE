@@ -498,8 +498,8 @@
     }
 
     .right-info h3 {
-        font-size: 20px; /* Reducir el tamaño del h3 */
-        top: 380px;
+        font-size: 24px; /* Reducir el tamaño del h3 */
+        top: 420px;
         left: 90px;
         transform: translateY(50%);
     }
