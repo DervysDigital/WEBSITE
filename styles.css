@@ -444,3 +444,150 @@
     margin-bottom: 10px;
 }
 
+/* diseño responsive */
+
+@media (max-width: 620px) {
+    /* Header */
+    .header {
+        padding: 15px 5%;
+        flex-direction: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between
+    }
+
+    .logo {
+        font-size: 40px;
+        margin-left: 85px;
+    }
+
+    .social-media {
+        margin: 0;
+        margin-right: 17px;
+    }
+
+    .social-media a {
+        width: 35px;
+        height: 35px;
+        margin-right: 8px;
+    }
+
+    .social-media a i {
+        font-size: 23px;
+    }
+
+    .navbar {
+        display: none; /* Ocultar el navbar en móviles */
+    }
+
+    /* Banner */
+    .banner {
+        height: 100vh; /* Reducir la altura del banner */
+    }
+
+    .slide .left-info,
+    .slide .right-info {
+        width: 57%; /* Ocupar todo el ancho */
+        text-align: center;
+        justify-content: center;
+    }
+
+    .left-info .penetrate-blur h1,
+    .right-info h1 {
+        font-size: 50px; /* Reducir el tamaño del h1 */
+        margin: 0 auto; /* Centrar el texto */
+    }
+
+    .right-info h3 {
+        font-size: 30px; /* Reducir el tamaño del h3 */
+        top: 370px;
+        left: 90px;
+        transform: translateY(50%);
+    }
+
+    .left-info .content {
+        bottom: 8%;
+        left: 2%;
+    }
+
+    .content h3 {
+        font-size: 19px;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+
+    .content .btn {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    .navigation {
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .navigation span {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navigation span i {
+        font-size: 28px;
+    }
+
+    /* Productos */
+    .productos {
+        height: auto; /* Altura automática para que se ajuste al contenido */
+        padding: 0px 20px;
+    }
+
+    .container h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+
+    .poducto {
+        display: block; /* Cambiar a bloque para que las imágenes se apilen */
+        width: 100%;
+    }
+
+    .producto {
+        width: 100%; /* Ocupar todo el ancho */
+        margin: 5px 0; /* Espacio entre productos */
+    }
+
+    .producto img {
+        width: 100%; /* Ajustar la imagen al ancho del contenedor */
+    }
+
+    .producto h3 {
+        width: 25%; /* Ocupar todo el ancho */
+        font-size: 20px;
+        top: 10%; /* Ajustar la posición del título */
+    }
+
+    /* Footer */
+    .contacto {
+        height: 17.5vh;
+    }
+
+    .container-contact {
+        top: 15px;
+    }
+
+    .container-contact a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .container-contact a i {
+        font-size: 16px;
+    }
+
+    .footerNav p {
+        font-size: 16px;
+    }
+}
